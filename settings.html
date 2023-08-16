@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600;700;900&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/norm.css">
+    <link rel="stylesheet" href="./css/myFramwork.css">
+    <link rel="stylesheet" href="./css/DashBord.css">
+</head>
+
+<body class="">
+    <div class="Page d-flex">
+        <div class="Nav items-box-shadow">
+            <h3 class="mar-top-0 text-c">Hoda</h3>
+            <ul>
+                <li><a href="./index.html"><i class="fa-regular fa-chart-bar fa-fw"></i><span>DashBord</span></a>
+                </li>
+                <li><a href="./settings.html" class="active"><i
+                            class="fa-solid fa-gear fa-fw"></i><span>Settings</span></a></li>
+                <li><a href="./profile.html"><i class="fa-solid fa-user fa-fw"></i><span>Profile</span></a></li>
+                <li><a href="./projects.html"><i class="fa-solid fa-diagram-project fa-fw"></i><span>Projects</span></a></li>
+                <li><a href="./Courses.html"><i class="fa-solid fa-graduation-cap fa-fw"></i><span>Courses</span></a></li>
+                <li><a href="./Friends"><i class="fa-regular fa-user fa-fw"></i><span>Friends</span></a></li>
+                <li><a href="./Files"><i class="fa-regular fa-file fa-fw"></i><span>Files</span></a></li>
+                <li><a href="./Plans"><i class="fa-regular fa-credit-card fa-fw"></i><span>Plans</span></a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="bar  items-box-shadow">
+                <div class="search">
+                    <input type="search" name="" id="" placeholder="Type A keyWord">
+                </div>
+                <div class="notifac">
+                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <img src="./img/avatar.png" alt="">
+                </div>
+            </div>
+            <h1>Setting</h1>
+
+            <!--   Toggle Component !!   -->
+            <!-- <label>
+                    <input class="toggle-checkbox" type="checkbox" checked>  
+                    <div class="toggle-switch"></div>
+                </label> -->
+
+            <div class="wrapper">
+                <div
+                    class="site-control text-cMobile block-Mobile bg-white rad-10 border-1-sol pa-bot-20 items-box-shadow">
+                    <div class="pa-20">
+                        <div class="string">
+                            <h2>Site Control</h2>
+                            <p>Control The Website If There Is Maintenance</p>
+                        </div>
+                    </div>
+
+                    <div class="open-close">
+                        <div>
+                            <div class="string">
+                                <h2 class="font-s-20">Website Control</h2>
+                                <p class="font-s-14">Open/Close Website And Type The Reason</p>
+                            </div>
+                        </div>
+                        <label>
+                            <input class="toggle-checkbox" type="checkbox" checked>
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+                    <div class="textArea">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Close Massege Content.."></textarea>
+                    </div>
+                </div>
+
+                <div
+                    class="general-info text-cMobile block-Mobile bg-white rad-10 border-1-sol pa-bot-20 items-box-shadow">
+                    <div class="pa-20">
+                        <div class="string">
+                            <h2>General Info</h2>
+                            <p>General Information About Your Account</p>
+                        </div>
+                    </div>
+                    <form action="" class="pa-20 pad-bot-0">
+                        <label for="first-name">First Name</label>
+                        <input type="text" placeholder="First Name" id="first-name">
+
+                        <label for="last-name">Last Name</label>
+                        <input type="text" placeholder="Last Name" id="last-name">
+                        <label for="email">Email</label>
+                        <div>
+                            <input type="email" placeholder="mahmoudne1572004@gmail.com" id="email" readonly>
+                            <a href="">Change</a>
+                        </div>
+                    </form>
+                </div>
+
+                <div
+                    class="Security-info text-cMobile block-Mobile bg-white rad-10 border-1-sol pa-bot-20 items-box-shadow">
+                    <div class="mar-bot">
+                        <div class="string">
+                            <h2>Security Info</h2>
+                            <p>Security Information About Your Account</p>
+                        </div>
+                    </div>
+
+                    <div class="pass">
+                        <div class="info">
+                            <h4>Password</h4>
+                            <p>Last Change On 25/10/2021</p>
+                        </div>
+                        <div class="link">
+                            <a href="#" class="button">Change</a>
+                        </div>
+                    </div>
+
+                    <div class="authen">
+                        <div class="info">
+                            <h4>Two-Factor Authentication</h4>
+                            <p>Enable/Disable The Feature</p>
+                        </div>
+                        <label>
+                            <input class="toggle-checkbox" type="checkbox" checked>
+                            <div class="toggle-switch"></div>
+                        </label>
+                    </div>
+
+                    <div class="devices">
+                        <div class="info">
+                            <h4>Devices</h4>
+                            <p>Check The Login Devices List</p>
+                        </div>
+                        <div class="link">
+                            <a href="#" class="button">Devices</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="social-info text-cMobile block-Mobile bg-white rad-10 border-1-sol pa-bot-20 items-box-shadow">
+                    <div class="pa-20">
+                        <div class="string">
+                            <h2>Social Info</h2>
+                            <p>Social Media Information</p>
+                        </div>
+                    </div>
+                    <form action="" class="pa-20">
+                        <div class="mar-bot">
+                            <i class="fa-brands fa-twitter center-flex c-grey"></i>
+                            <input type="text" placeholder="Twitter User-name">
+                        </div>
+
+                        <div class="mar-bot">
+                            <i class="fa-brands fa-facebook-f center-flex c-grey"></i>
+                            <input type="text" placeholder="Facebook User-name">
+                        </div>
+
+                        <div class="mar-bot">
+                            <i class="fa-brands fa-linkedin center-flex c-grey"></i>
+                            <input type="text" placeholder="Linkedin User-name">
+                        </div>
+
+                        <div>
+                            <i class="fa-brands fa-youtube center-flex c-grey"></i>
+                            <input type="text" placeholder="Youtube User-name">
+                        </div>
+                    </form>
+
+                </div>
+
+                <div
+                    class="widget-control text-cMobile block-Mobile bg-white rad-10 border-1-sol pa-bot-20 items-box-shadow">
+                    <div class="pa-20">
+                        <div class="string">
+                            <h2>Widgets Control</h2>
+                            <p> Show/Hide Widgets</p>
+                        </div>
+                    </div>
+                    <form action="" class="pa-20">
+                        <div>
+                            <input type="checkbox" id="Quick Draft" checked>
+                            <label for="Quick Draft">Quick Draft</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Yearly Targets" checked>
+                            <label for="Yearly Targets">Yearly Targets</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Tickets Statistics" checked>
+                            <label for="Tickets Statistics">Tickets Statistics</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Latest News" checked>
+                            <label for="Latest News">Latest News</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Latest Tasks">
+                            <label for="Latest Tasks">Latest Tasks</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="Top Search Items" checked>
+                            <label for="Top Search Items">Top Search Items</label>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div
+                    class="backup-manager text-cMobile block-Mobile bg-white rad-10 border-1-sol pa-bot-20 items-box-shadow">
+                    <div class="pa-20">
+                        <div class="string">
+                            <h2>Backup Manager</h2>
+                            <p>Control Backup Time And Location</p>
+                        </div>
+                    </div>
+                    <form action="" class="first-form pa-20">
+                        <div>
+                            <input type="radio" id="Daily" name="Backuptime" checked>
+                            <label for="Daily">Daily</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="Weekly" name="Backuptime">
+                            <label for="Weekly">Weekly</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="Monthly" name="Backuptime">
+                            <label for="Monthly">Monthly</label>
+                        </div>
+                    </form>
+
+                    <form action="" class="second-form pa-20">
+                        <div>
+                            <input type="radio" id="Magaman" name="Backuplocation">
+                            <label for="Magaman"><i class="fa-solid fa-server d-block mb-10"></i>Magaman</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="Elzero" name="Backuplocation" checked>
+                            <label for="Elzero"><i class="fa-solid fa-server d-block mb-10"></i>Elzero</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="sigma" name="Backuplocation">
+                            <label for="sigma"><i class="fa-solid fa-server d-block mb-10"></i>Sigma</label>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
